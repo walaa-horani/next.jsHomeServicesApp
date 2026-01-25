@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Cleaning",
+        "slug": "cleaning",
+        "bg": "bg-blue-100 dark:bg-blue-900/20",
+        "image": "https://images.unsplash.com/photo-1581578731117-104529d41718?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "name": "Repair",
+        "slug": "repair",
+        "bg": "bg-orange-100 dark:bg-orange-900/20",
+        "image": "https://images.unsplash.com/photo-1581244277943-fe4a9c777189?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "name": "Painting",
+        "slug": "painting",
+        "bg": "bg-pink-100 dark:bg-pink-900/20",
+        "image": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "name": "Shifting",
+        "slug": "shifting",
+        "bg": "bg-red-100 dark:bg-red-900/20",
+        "image": "https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "name": "Plumbing",
+        "slug": "plumbing",
+        "bg": "bg-amber-100 dark:bg-amber-900/20",
+        "image": "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+        "name": "Electric",
+        "slug": "electric",
+        "bg": "bg-green-100 dark:bg-green-900/20",
+        "image": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80"
+    }
+]

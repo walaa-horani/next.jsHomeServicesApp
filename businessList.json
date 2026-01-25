@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Sparkle Cleaners",
+        "contact": "John Doe",
+        "address": "123 Main St, Springfield",
+        "about": "Professional home cleaning services with eco-friendly products. We make your home shine!",
+        "category": {
+            "name": "Cleaning",
+            "slug": "cleaning"
+        }
+    },
+    {
+        "name": "Quick Fix Repairs",
+        "contact": "Jane Smith",
+        "address": "456 Oak Ave, Metropolis",
+        "about": "Expert repair services for all your household needs. Fast and reliable.",
+        "category": {
+            "name": "Repair",
+            "slug": "repair"
+        }
+    },
+    {
+        "name": "Master Painters",
+        "contact": "Bob Ross",
+        "address": "789 Pine Ln, Artville",
+        "about": "Interior and exterior painting services. We bring color to your life.",
+        "category": {
+            "name": "Painting",
+            "slug": "painting"
+        }
+    },
+    {
+        "name": "Speedy Shifters",
+        "contact": "Mike Movers",
+        "address": "321 Elm St, Move City",
+        "about": "Hassle-free moving and shifting services. We handle your belongings with care.",
+        "category": {
+            "name": "Shifting",
+            "slug": "shifting"
+        }
+    },
+    {
+        "name": "Reliable Plumbers",
+        "contact": "Mario",
+        "address": "101 Pipe Rd, Mushroom Kingdom",
+        "about": "24/7 plumbing services. No leak is too small.",
+        "category": {
+            "name": "Plumbing",
+            "slug": "plumbing"
+        }
+    },
+    {
+        "name": "Volt Electricians",
+        "contact": "Zap Watts",
+        "address": "202 Current Dr, Power City",
+        "about": "Certified electricians for residential and commercial projects.",
+        "category": {
+            "name": "Electric",
+            "slug": "electric"
+        }
+    },
+    {
+        "name": "Crystal Clear Windows",
+        "contact": "Jack Frost",
+        "address": "888 Glass St, Shine City",
+        "about": "Residential and commercial window cleaning for a streak-free shine.",
+        "category": {
+            "name": "Cleaning",
+            "slug": "cleaning"
+        }
+    },
+    {
+        "name": "Safe Hands Movers",
+        "contact": "Sam Porter",
+        "address": "777 Box Blvd, Transit City",
+        "about": "Secure and efficient moving services for your peace of mind.",
+        "category": {
+            "name": "Shifting",
+            "slug": "shifting"
+        }
+    },
+    {
+        "name": "Tech Wizardry",
+        "contact": "Alan Turing",
+        "address": "1010 Binary Rd, Silicon Valley",
+        "about": "Computer repair and home network setup services.",
+        "category": {
+            "name": "Repair",
+            "slug": "repair"
+        }
+    }
+]
