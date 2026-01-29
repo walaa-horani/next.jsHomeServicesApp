@@ -1,0 +1,38 @@
+﻿[dotenv@17.2.3] injecting env (13) from .env -- tip: ­ƒöÉ prevent committing .env to code: https://dotenvx.com/precommit
+[dotenv@17.2.2] injecting env (0) from .env.local,.env -- tip: ­ƒôí version env with Radar: https://dotenvx.com/radar
+
+Running 1 test using 1 worker
+
+[1A[2K[dotenv@17.2.3] injecting env (0) from .env -- tip: ­ƒöÉ prevent building .env in docker: https://dotenvx.com/prebuild
+
+[1A[2K[1/1] [chromium] ÔÇ║ tests\home-service.spec.ts:12:9 ÔÇ║ Home Service App Integration Tests ÔÇ║ should allow user to sign in via Clerk
+[1A[2K  1) [chromium] ÔÇ║ tests\home-service.spec.ts:12:9 ÔÇ║ Home Service App Integration Tests ÔÇ║ should allow user to sign in via Clerk 
+
+    Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+    Locator: locator('button[type="submit"]').filter({ hasText: /Continue/i })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+    [2m  - Expect "toBeVisible" with timeout 5000ms[22m
+    [2m  - waiting for locator('button[type="submit"]').filter({ hasText: /Continue/i })[22m
+
+
+      29 |         // Click Continue to submit
+      30 |         const continueButton = page.locator('button[type="submit"]').filter({ hasText: /Continue/i });
+    > 31 |         await expect(continueButton).toBeVisible();
+         |                                      ^
+      32 |         await continueButton.click();
+      33 |
+      34 |         // Verify successful login
+        at C:\Users\Walaa\OneDrive\Desktop\home_service\tests\home-service.spec.ts:31:38
+
+    Error Context: test-results\home-service-Home-Service--4d1c1-w-user-to-sign-in-via-Clerk-chromium\error-context.md
+
+
+[1A[2K  1 failed
+    [chromium] ÔÇ║ tests\home-service.spec.ts:12:9 ÔÇ║ Home Service App Integration Tests ÔÇ║ should allow user to sign in via Clerk 
+
+[36m  Serving HTML report at http://localhost:49174. Press Ctrl+C to quit.[39m

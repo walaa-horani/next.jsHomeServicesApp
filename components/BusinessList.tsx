@@ -4,6 +4,7 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from './ui/card'
 import { Badge } from './ui/badge';
 import Link from 'next/link';
 import { Button } from './ui/button';
+import { buttonVariants } from './ui/button-variants';
 
 async function BusinessList({ category }: { category?: string }) {
 
@@ -52,9 +53,7 @@ async function BusinessList({ category }: { category?: string }) {
                                     <p className="text-sm text-muted-foreground truncate">{business.address}</p>
                                 </CardContent>
                                 <CardFooter className="p-4 pt-0">
-                                    <Link href={`/details/${business.id}`} className="w-full">
-                                        <Button className="w-full bg-primary hover:bg-primary/90">Book Now</Button>
-                                    </Link>
+                                    <div className={buttonVariants({ variant: "default", className: "w-full pointer-events-none" })}>Book Now</div>
                                 </CardFooter>
                             </Card>
                         </Link>
